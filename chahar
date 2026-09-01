@@ -1,0 +1,52 @@
+Build a complete Python Face Recognition Attendance System.
+
+Project name: Face Recognition Attendance System.
+
+Requirements:
+
+1. Create a clean and modern desktop GUI using Tkinter.
+2. Add a "Register Student" option.
+3. Registration should ask for:
+   - Student Name
+   - Student ID
+4. Open the webcam and capture multiple face images of the student.
+5. Store the captured images inside a dataset folder.
+6. Create face encodings from the registered images.
+7. Add a "Start Attendance" button.
+8. Open the webcam and recognize registered students in real time.
+9. When a known student is recognized, automatically mark attendance.
+10. Store attendance in attendance/attendance.csv with:
+    - Student ID
+    - Student Name
+    - Date
+    - Time
+    - Status
+11. A student must not be marked twice on the same date.
+12. Add an "Attendance Report" button to display attendance records.
+13. Add a "Search Student" feature.
+14. Add an "Exit" button.
+15. Show the recognized student's name and ID on the webcam screen.
+16. Display "Unknown Face" when the face is not registered.
+17. Handle cases where the webcam is unavailable.
+18. Handle duplicate student IDs.
+19. Handle missing or corrupted images gracefully.
+20. Keep the code modular and well commented.
+
+Use:
+- Python 3
+- OpenCV
+- face_recognition
+- NumPy
+- Pandas
+- Tkinter
+- CSV or SQLite
+
+Create all required files automatically and provide:
+- requirements.txt
+- complete source code
+- folder structure
+- installation commands
+- run commands
+
+Make the application beginner-friendly and suitable as a college project.
+
